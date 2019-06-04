@@ -20,8 +20,8 @@ import (
 	"fmt"
 
 	"github.com/henrylee2cn/goutil"
-	tp "github.com/henrylee2cn/teleport"
-	"github.com/henrylee2cn/teleport/utils"
+	tp "gitlab.1234tv.lan/common/teleport"
+	"gitlab.1234tv.lan/common/teleport/utils"
 )
 
 const (

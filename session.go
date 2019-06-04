@@ -27,9 +27,9 @@ import (
 
 	"github.com/henrylee2cn/goutil"
 	"github.com/henrylee2cn/goutil/coarsetime"
-	"github.com/henrylee2cn/teleport/codec"
-	"github.com/henrylee2cn/teleport/socket"
-	"github.com/henrylee2cn/teleport/utils"
+	"gitlab.1234tv.lan/common/teleport/codec"
+	"gitlab.1234tv.lan/common/teleport/socket"
+	"gitlab.1234tv.lan/common/teleport/utils"
 )
 
 type (

@@ -3,7 +3,7 @@ package tp_test
 import (
 	"testing"
 
-	tp "github.com/henrylee2cn/teleport"
+	tp "gitlab.1234tv.lan/common/teleport"
 )
 
 func TestHTTPServiceMethodMapper(t *testing.T) {

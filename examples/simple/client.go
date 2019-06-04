@@ -3,7 +3,7 @@ package main
 import (
 	"time"
 
-	tp "github.com/henrylee2cn/teleport"
+	tp "gitlab.1234tv.lan/common/teleport"
 )
 
 //go:generate go build $GOFILE

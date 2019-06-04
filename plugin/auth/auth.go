@@ -21,7 +21,7 @@ import (
 	"sync/atomic"
 
 	"github.com/henrylee2cn/goutil"
-	tp "github.com/henrylee2cn/teleport"
+	tp "gitlab.1234tv.lan/common/teleport"
 )
 
 // NewBearerPlugin creates a auth bearer plugin for client.

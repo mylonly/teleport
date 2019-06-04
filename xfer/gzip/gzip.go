@@ -21,8 +21,8 @@ import (
 	"io/ioutil"
 	"sync"
 
-	"github.com/henrylee2cn/teleport/utils"
-	"github.com/henrylee2cn/teleport/xfer"
+	"gitlab.1234tv.lan/common/teleport/utils"
+	"gitlab.1234tv.lan/common/teleport/xfer"
 )
 
 var ids = map[byte]bool{}

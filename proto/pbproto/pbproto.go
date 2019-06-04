@@ -21,10 +21,10 @@ import (
 	"io"
 	"sync"
 
-	tp "github.com/henrylee2cn/teleport"
-	"github.com/henrylee2cn/teleport/codec"
-	"github.com/henrylee2cn/teleport/proto/pbproto/pb"
-	"github.com/henrylee2cn/teleport/utils"
+	tp "gitlab.1234tv.lan/common/teleport"
+	"gitlab.1234tv.lan/common/teleport/codec"
+	"gitlab.1234tv.lan/common/teleport/proto/pbproto/pb"
+	"gitlab.1234tv.lan/common/teleport/utils"
 )
 
 // NewPbProtoFunc is creation function of PROTOBUF socket protocol.

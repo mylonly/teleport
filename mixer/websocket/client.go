@@ -22,10 +22,10 @@ import (
 	"path"
 	"strings"
 
-	tp "github.com/henrylee2cn/teleport"
-	"github.com/henrylee2cn/teleport/mixer/websocket/jsonSubProto"
-	"github.com/henrylee2cn/teleport/mixer/websocket/pbSubProto"
-	ws "github.com/henrylee2cn/teleport/mixer/websocket/websocket"
+	tp "gitlab.1234tv.lan/common/teleport"
+	"gitlab.1234tv.lan/common/teleport/mixer/websocket/jsonSubProto"
+	"gitlab.1234tv.lan/common/teleport/mixer/websocket/pbSubProto"
+	ws "gitlab.1234tv.lan/common/teleport/mixer/websocket/websocket"
 )
 
 // Client a websocket client

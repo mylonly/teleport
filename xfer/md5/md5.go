@@ -6,7 +6,7 @@ import (
 	"crypto/md5"
 	"errors"
 
-	"github.com/henrylee2cn/teleport/xfer"
+	"gitlab.1234tv.lan/common/teleport/xfer"
 )
 
 // Reg registers a md5 checker filter for transfer.

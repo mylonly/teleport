@@ -22,7 +22,7 @@ import (
 	"time"
 
 	"github.com/henrylee2cn/cfgo"
-	"github.com/henrylee2cn/teleport/socket"
+	"gitlab.1234tv.lan/common/teleport/socket"
 )
 
 // PeerConfig peer config

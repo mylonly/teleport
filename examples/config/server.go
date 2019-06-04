@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/henrylee2cn/cfgo"
-	tp "github.com/henrylee2cn/teleport"
+	tp "gitlab.1234tv.lan/common/teleport"
 )
 
 //go:generate go build $GOFILE

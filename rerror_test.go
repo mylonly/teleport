@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/henrylee2cn/teleport/utils"
+	"gitlab.1234tv.lan/common/teleport/utils"
 )
 
 func TestRerror(t *testing.T) {

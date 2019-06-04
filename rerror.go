@@ -8,7 +8,7 @@ import (
 	"github.com/tidwall/gjson"
 
 	"github.com/henrylee2cn/goutil"
-	"github.com/henrylee2cn/teleport/utils"
+	"gitlab.1234tv.lan/common/teleport/utils"
 )
 
 // Internal Framework Rerror code.

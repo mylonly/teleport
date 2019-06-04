@@ -24,12 +24,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/henrylee2cn/teleport/quic"
+	"gitlab.1234tv.lan/common/teleport/quic"
 
 	"github.com/henrylee2cn/goutil"
 	"github.com/henrylee2cn/goutil/coarsetime"
 	"github.com/henrylee2cn/goutil/errors"
-	"github.com/henrylee2cn/teleport/codec"
+	"gitlab.1234tv.lan/common/teleport/codec"
 )
 
 type (

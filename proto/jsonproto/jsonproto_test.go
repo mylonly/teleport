@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/henrylee2cn/teleport"
-	"github.com/henrylee2cn/teleport/proto/jsonproto"
-	"github.com/henrylee2cn/teleport/xfer/gzip"
+	tp "gitlab.1234tv.lan/common/teleport"
+	"gitlab.1234tv.lan/common/teleport/proto/jsonproto"
+	"gitlab.1234tv.lan/common/teleport/xfer/gzip"
 )
 
 type Home struct {

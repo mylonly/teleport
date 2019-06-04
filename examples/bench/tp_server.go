@@ -8,8 +8,8 @@ import (
 	"runtime"
 	"time"
 
-	tp "github.com/henrylee2cn/teleport"
-	"github.com/henrylee2cn/teleport/examples/bench/msg"
+	tp "gitlab.1234tv.lan/common/teleport"
+	"gitlab.1234tv.lan/common/teleport/examples/bench/msg"
 )
 
 //go:generate go build $GOFILE

@@ -1,4 +1,4 @@
-module github.com/henrylee2cn/teleport
+module gitlab.1234tv.lan/common/teleport
 
 go 1.12
 

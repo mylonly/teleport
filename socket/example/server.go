@@ -4,8 +4,8 @@ import (
 	"log"
 	"net"
 
-	"github.com/henrylee2cn/teleport/socket"
-	"github.com/henrylee2cn/teleport/socket/example/pb"
+	"gitlab.1234tv.lan/common/teleport/socket"
+	"gitlab.1234tv.lan/common/teleport/socket/example/pb"
 )
 
 //go:generate go build $GOFILE

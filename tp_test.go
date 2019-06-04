@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/henrylee2cn/teleport"
+	tp "gitlab.1234tv.lan/common/teleport"
 )
 
 func panic_call(tp.CallCtx, *interface{}) (interface{}, *tp.Rerror) {

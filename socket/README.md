@@ -46,15 +46,15 @@ A concise, powerful and high-performance connection socket.
 
 - Profile torch of teleport/socket
 
-![tp_socket_profile_torch](https://github.com/henrylee2cn/teleport/raw/v5/doc/tp_socket_profile_torch.png)
+![tp_socket_profile_torch](https://gitlab.1234tv.lan/common/teleport/raw/v5/doc/tp_socket_profile_torch.png)
 
-**[svg file](https://github.com/henrylee2cn/teleport/raw/v5/doc/tp_socket_profile_torch.svg)**
+**[svg file](https://gitlab.1234tv.lan/common/teleport/raw/v5/doc/tp_socket_profile_torch.svg)**
 
 - Heap torch of teleport/socket
 
-![tp_socket_heap_torch](https://github.com/henrylee2cn/teleport/raw/v5/doc/tp_socket_heap_torch.png)
+![tp_socket_heap_torch](https://gitlab.1234tv.lan/common/teleport/raw/v5/doc/tp_socket_heap_torch.png)
 
-**[svg file](https://github.com/henrylee2cn/teleport/raw/v5/doc/tp_socket_heap_torch.svg)**
+**[svg file](https://gitlab.1234tv.lan/common/teleport/raw/v5/doc/tp_socket_heap_torch.svg)**
 
 ## Example
 
@@ -67,8 +67,8 @@ import (
     "log"
     "net"
 
-    "github.com/henrylee2cn/teleport/socket"
-    "github.com/henrylee2cn/teleport/socket/example/pb"
+    "gitlab.1234tv.lan/common/teleport/socket"
+    "gitlab.1234tv.lan/common/teleport/socket/example/pb"
 )
 
 //go:generate go build $GOFILE
@@ -131,9 +131,9 @@ import (
     "log"
     "net"
 
-    "github.com/henrylee2cn/teleport/codec"
-    "github.com/henrylee2cn/teleport/socket"
-    "github.com/henrylee2cn/teleport/socket/example/pb"
+    "gitlab.1234tv.lan/common/teleport/codec"
+    "gitlab.1234tv.lan/common/teleport/socket"
+    "gitlab.1234tv.lan/common/teleport/socket/example/pb"
 )
 
 //go:generate go build $GOFILE
@@ -178,7 +178,7 @@ func main() {
 }
 ```
 
-[More Examples](https://github.com/henrylee2cn/teleport/tree/v5/socket/example)
+[More Examples](https://gitlab.1234tv.lan/common/teleport/tree/v5/socket/example)
 
 ## Keyworks
 
