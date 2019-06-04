@@ -335,6 +335,14 @@ var (
 	errUnsupportHTTPCode  = errors.New("unsupport HTTP status code")
 )
 
+var (
+	contentTypeStr = "Content-Type"
+	contentLengthStr = "Content-Length"
+	xContentEncodingStr = "X-Content-Encoding"
+	xSeqStr = "X-Seq"
+	xMtypeStr = "X-Mtype"
+)
+
 func (h *httproto) unpack(m tp.Message, bb *utils.ByteBuffer) (size int, msg []byte, err error) {
 	var bodySize int
 	var a [][]byte
@@ -358,11 +366,15 @@ func (h *httproto) unpack(m tp.Message, bb *utils.ByteBuffer) (size int, msg []b
 			return 0, nil, errBadHTTPMsg
 		}
 		a[1] = bytes.TrimSpace(a[1])
-		if bytes.Equal(contentTypeBytes, a[0]) {
+
+		key := string(a[0])
+
+		if strings.EqualFold(contentTypeStr, key) {
 			m.SetBodyCodec(GetBodyCodec(goutil.BytesToString(a[1]), codec.NilCodecID))
 			continue
 		}
-		if bytes.Equal(contentLengthBytes, a[0]) {
+
+		if strings.EqualFold(contentLengthStr, key) {
 			bodySize, err = strconv.Atoi(goutil.BytesToString(a[1]))
 			if err != nil {
 				return 0, nil, errBadHTTPMsg
@@ -370,7 +382,8 @@ func (h *httproto) unpack(m tp.Message, bb *utils.ByteBuffer) (size int, msg []b
 			size += bodySize
 			continue
 		}
-		if bytes.Equal(xContentEncodingBytes, a[0]) {
+
+		if strings.EqualFold(xContentEncodingStr, key) {
 			zg, err := xfer.GetByName(goutil.BytesToString(a[1]))
 			if err != nil {
 				return 0, nil, err
@@ -378,7 +391,8 @@ func (h *httproto) unpack(m tp.Message, bb *utils.ByteBuffer) (size int, msg []b
 			m.XferPipe().Append(zg.ID())
 			continue
 		}
-		if bytes.Equal(xSeqBytes, a[0]) {
+
+		if strings.EqualFold(xSeqStr, key) {
 			var seq int
 			seq, err = strconv.Atoi(goutil.BytesToString(a[1]))
 			if err != nil {
@@ -387,7 +401,8 @@ func (h *httproto) unpack(m tp.Message, bb *utils.ByteBuffer) (size int, msg []b
 			m.SetSeq(int32(seq))
 			continue
 		}
-		if bytes.Equal(xMtypeBytes, a[0]) {
+
+		if strings.EqualFold(xMtypeStr, key) {
 			var mtype int
 			mtype, err = strconv.Atoi(goutil.BytesToString(a[1]))
 			if err != nil {
@@ -396,6 +411,17 @@ func (h *httproto) unpack(m tp.Message, bb *utils.ByteBuffer) (size int, msg []b
 			m.SetMtype(byte(mtype))
 			continue
 		}
+
+		//if bytes.Equal(contentTypeBytes, a[0]) {
+		//}
+		//if bytes.Equal(contentLengthBytes, a[0]) {
+		//}
+		//if bytes.Equal(xContentEncodingBytes, a[0]) {
+		//}
+		//if bytes.Equal(xSeqBytes, a[0]) {
+		//}
+		//if bytes.Equal(xMtypeBytes, a[0]) {
+		//}
 		m.Meta().SetBytesKV(a[0], a[1])
 	}
 	if bodySize == 0 {
@@ -413,6 +439,7 @@ func (h *httproto) unpack(m tp.Message, bb *utils.ByteBuffer) (size int, msg []b
 	bb.B, err = m.XferPipe().OnUnpack(bb.B)
 	return size, msg, err
 }
+
 
 func (h *httproto) readLine(bb *utils.ByteBuffer) error {
 	bb.Reset()
