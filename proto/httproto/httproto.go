@@ -116,6 +116,7 @@ func (h *httproto) Version() (byte, string) {
 // NOTE: Make sure to write only once or there will be package contamination!
 func (h *httproto) Pack(m tp.Message) (err error) {
 	// marshal body
+	m.SetBodyCodec(codec.ID_JSON)
 	bodyBytes, err := m.MarshalBody()
 	if err != nil {
 		return err
