@@ -24,9 +24,9 @@ import (
 	"sync"
 
 	"github.com/henrylee2cn/goutil"
-	"gitlab.1234tv.lan/common/teleport/codec"
-	"gitlab.1234tv.lan/common/teleport/utils"
-	"gitlab.1234tv.lan/common/teleport/xfer"
+	"github.com/mylonly/teleport/codec"
+	"github.com/mylonly/teleport/utils"
+	"github.com/mylonly/teleport/xfer"
 )
 
 type (

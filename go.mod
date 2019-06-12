@@ -1,4 +1,4 @@
-module gitlab.1234tv.lan/common/teleport
+module github.com/mylonly/teleport
 
 go 1.12
 

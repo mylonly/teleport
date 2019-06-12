@@ -17,11 +17,11 @@ package websocket
 import (
 	"bytes"
 
-	tp "gitlab.1234tv.lan/common/teleport"
-	"gitlab.1234tv.lan/common/teleport/mixer/websocket/jsonSubProto"
-	ws "gitlab.1234tv.lan/common/teleport/mixer/websocket/websocket"
-	"gitlab.1234tv.lan/common/teleport/socket"
-	"gitlab.1234tv.lan/common/teleport/utils"
+	tp "github.com/mylonly/teleport"
+	"github.com/mylonly/teleport/mixer/websocket/jsonSubProto"
+	ws "github.com/mylonly/teleport/mixer/websocket/websocket"
+	"github.com/mylonly/teleport/socket"
+	"github.com/mylonly/teleport/utils"
 )
 
 var defaultProto = jsonSubProto.NewJSONSubProtoFunc()

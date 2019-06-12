@@ -3,8 +3,8 @@ package main
 import (
 	"time"
 
-	tp "gitlab.1234tv.lan/common/teleport"
-	"gitlab.1234tv.lan/common/teleport/plugin/proxy"
+	tp "github.com/mylonly/teleport"
+	"github.com/mylonly/teleport/plugin/proxy"
 )
 
 //go:generate go build $GOFILE

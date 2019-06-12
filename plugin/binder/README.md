@@ -4,7 +4,7 @@ Parameter Binding Verification Plugin for Struct Handler.
 
 ### Usage
 
-`import "gitlab.1234tv.lan/common/teleport/plugin/binder"`
+`import "github.com/mylonly/teleport/plugin/binder"`
 
 #### Param-Tags
 
@@ -57,8 +57,8 @@ import (
 	"testing"
 	"time"
 
-	tp "gitlab.1234tv.lan/common/teleport"
-	"gitlab.1234tv.lan/common/teleport/plugin/binder"
+	tp "github.com/mylonly/teleport"
+	"github.com/mylonly/teleport/plugin/binder"
 )
 
 type (

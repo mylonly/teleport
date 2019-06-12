@@ -27,7 +27,7 @@ NOTE: Big Endian
 
 ### Usage
 
-`import "gitlab.1234tv.lan/common/teleport/proto/pbproto"`
+`import "github.com/mylonly/teleport/proto/pbproto"`
 
 #### Test
 
@@ -38,8 +38,8 @@ import (
 	"testing"
 	"time"
 
-	tp "gitlab.1234tv.lan/common/teleport"
-	"gitlab.1234tv.lan/common/teleport/xfer/gzip"
+	tp "github.com/mylonly/teleport"
+	"github.com/mylonly/teleport/xfer/gzip"
 )
 
 type Home struct {

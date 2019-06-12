@@ -7,7 +7,7 @@ When the connection is idle more than 3 times the heartbeat time, take the initi
 
 ### Usage
 
-`import "gitlab.1234tv.lan/common/teleport/plugin/heartbeat"`
+`import "github.com/mylonly/teleport/plugin/heartbeat"`
 
 #### Test
 
@@ -18,8 +18,8 @@ import (
 	"testing"
 	"time"
 
-	tp "gitlab.1234tv.lan/common/teleport"
-	"gitlab.1234tv.lan/common/teleport/plugin/heartbeat"
+	tp "github.com/mylonly/teleport"
+	"github.com/mylonly/teleport/plugin/heartbeat"
 )
 
 func TestHeartbeatCall1(t *testing.T) {

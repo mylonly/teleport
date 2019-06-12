@@ -32,9 +32,9 @@ import (
 
 	"github.com/henrylee2cn/goutil"
 	"github.com/henrylee2cn/goutil/pool"
-	"gitlab.1234tv.lan/common/teleport/codec"
-	"gitlab.1234tv.lan/common/teleport/socket"
-	"gitlab.1234tv.lan/common/teleport/utils"
+	"github.com/mylonly/teleport/codec"
+	"github.com/mylonly/teleport/socket"
+	"github.com/mylonly/teleport/utils"
 )
 
 // ServiceMethodMapper mapper service method from prefix, recvName and funcName.

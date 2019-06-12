@@ -19,7 +19,7 @@ import (
 	"time"
 
 	"github.com/henrylee2cn/goutil/pool"
-	tp "gitlab.1234tv.lan/common/teleport"
+	tp "github.com/mylonly/teleport"
 )
 
 // MultiClient client session which is has connection pool

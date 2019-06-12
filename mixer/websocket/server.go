@@ -21,10 +21,10 @@ import (
 	"net/http"
 	"net/url"
 
-	tp "gitlab.1234tv.lan/common/teleport"
-	"gitlab.1234tv.lan/common/teleport/mixer/websocket/jsonSubProto"
-	"gitlab.1234tv.lan/common/teleport/mixer/websocket/pbSubProto"
-	ws "gitlab.1234tv.lan/common/teleport/mixer/websocket/websocket"
+	tp "github.com/mylonly/teleport"
+	"github.com/mylonly/teleport/mixer/websocket/jsonSubProto"
+	"github.com/mylonly/teleport/mixer/websocket/pbSubProto"
+	ws "github.com/mylonly/teleport/mixer/websocket/websocket"
 )
 
 // Server a websocket server

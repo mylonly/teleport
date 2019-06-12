@@ -8,9 +8,9 @@ import (
 
 	"github.com/henrylee2cn/goutil/httpbody"
 
-	tp "gitlab.1234tv.lan/common/teleport"
-	"gitlab.1234tv.lan/common/teleport/proto/httproto"
-	"gitlab.1234tv.lan/common/teleport/xfer/gzip"
+	tp "github.com/mylonly/teleport"
+	"github.com/mylonly/teleport/proto/httproto"
+	"github.com/mylonly/teleport/xfer/gzip"
 )
 
 type Home struct {

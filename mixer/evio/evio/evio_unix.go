@@ -16,7 +16,7 @@ import (
 	"syscall"
 	"time"
 
-	"gitlab.1234tv.lan/common/teleport/mixer/evio/evio/internal"
+	"github.com/mylonly/teleport/mixer/evio/evio/internal"
 	reuseport "github.com/kavu/go_reuseport"
 )
 

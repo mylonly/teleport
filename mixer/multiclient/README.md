@@ -13,7 +13,7 @@ Higher throughput client connection pool when transferring large messages (such 
 
 ### Usage
 	
-`import "gitlab.1234tv.lan/common/teleport/mixer/multiclient"`
+`import "github.com/mylonly/teleport/mixer/multiclient"`
 
 #### Test
 
@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
-	tp "gitlab.1234tv.lan/common/teleport"
-	"gitlab.1234tv.lan/common/teleport/mixer/multiclient"
+	tp "github.com/mylonly/teleport"
+	"github.com/mylonly/teleport/mixer/multiclient"
 )
 
 type Arg struct {

@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	tp "gitlab.1234tv.lan/common/teleport"
-	ws "gitlab.1234tv.lan/common/teleport/mixer/websocket"
-	"gitlab.1234tv.lan/common/teleport/mixer/websocket/jsonSubProto"
-	"gitlab.1234tv.lan/common/teleport/plugin/auth"
+	tp "github.com/mylonly/teleport"
+	ws "github.com/mylonly/teleport/mixer/websocket"
+	"github.com/mylonly/teleport/mixer/websocket/jsonSubProto"
+	"github.com/mylonly/teleport/plugin/auth"
 )
 
 type Arg struct {

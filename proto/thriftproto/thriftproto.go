@@ -5,8 +5,8 @@ import (
 	"sync"
 
 	"git.apache.org/thrift.git/lib/go/thrift"
-	tp "gitlab.1234tv.lan/common/teleport"
-	"gitlab.1234tv.lan/common/teleport/proto/thriftproto/gen-go/payload"
+	tp "github.com/mylonly/teleport"
+	"github.com/mylonly/teleport/proto/thriftproto/gen-go/payload"
 )
 
 func init() {

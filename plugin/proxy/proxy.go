@@ -22,7 +22,7 @@ import (
 	"sync"
 
 	"github.com/henrylee2cn/goutil"
-	tp "gitlab.1234tv.lan/common/teleport"
+	tp "github.com/mylonly/teleport"
 )
 
 // A proxy plugin for handling unknown calling or pushing.

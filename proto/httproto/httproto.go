@@ -27,11 +27,11 @@ import (
 	"sync"
 
 	"github.com/henrylee2cn/goutil"
-	tp "gitlab.1234tv.lan/common/teleport"
-	"gitlab.1234tv.lan/common/teleport/codec"
-	"gitlab.1234tv.lan/common/teleport/utils"
-	"gitlab.1234tv.lan/common/teleport/xfer"
-	"gitlab.1234tv.lan/common/teleport/xfer/gzip"
+	tp "github.com/mylonly/teleport"
+	"github.com/mylonly/teleport/codec"
+	"github.com/mylonly/teleport/utils"
+	"github.com/mylonly/teleport/xfer"
+	"github.com/mylonly/teleport/xfer/gzip"
 )
 
 var (

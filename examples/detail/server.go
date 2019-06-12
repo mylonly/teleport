@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"time"
 
-	"gitlab.1234tv.lan/common/teleport/xfer/gzip"
+	"github.com/mylonly/teleport/xfer/gzip"
 
-	tp "gitlab.1234tv.lan/common/teleport"
+	tp "github.com/mylonly/teleport"
 )
 
 //go:generate go build $GOFILE

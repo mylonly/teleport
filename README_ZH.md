@@ -1,4 +1,4 @@
-# Teleport [![GitHub release](https://img.shields.io/github/release/henrylee2cn/teleport.svg?style=flat-square)](https://gitlab.1234tv.lan/common/teleport/releases) [![report card](https://goreportcard.com/badge/gitlab.1234tv.lan/common/teleport?style=flat-square)](http://goreportcard.com/report/henrylee2cn/teleport) [![github issues](https://img.shields.io/github/issues/henrylee2cn/teleport.svg?style=flat-square)](https://gitlab.1234tv.lan/common/teleport/issues?q=is%3Aopen+is%3Aissue) [![github closed issues](https://img.shields.io/github/issues-closed-raw/henrylee2cn/teleport.svg?style=flat-square)](https://gitlab.1234tv.lan/common/teleport/issues?q=is%3Aissue+is%3Aclosed) [![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](http://godoc.org/gitlab.1234tv.lan/common/teleport) [![view examples](https://img.shields.io/badge/learn%20by-examples-00BCD4.svg?style=flat-square)](https://gitlab.1234tv.lan/common/teleport/tree/v5/examples)
+# Teleport [![GitHub release](https://img.shields.io/github/release/henrylee2cn/teleport.svg?style=flat-square)](https://github.com/mylonly/teleport/releases) [![report card](https://goreportcard.com/badge/github.com/mylonly/teleport?style=flat-square)](http://goreportcard.com/report/henrylee2cn/teleport) [![github issues](https://img.shields.io/github/issues/henrylee2cn/teleport.svg?style=flat-square)](https://github.com/mylonly/teleport/issues?q=is%3Aopen+is%3Aissue) [![github closed issues](https://img.shields.io/github/issues-closed-raw/henrylee2cn/teleport.svg?style=flat-square)](https://github.com/mylonly/teleport/issues?q=is%3Aissue+is%3Aclosed) [![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](http://godoc.org/github.com/mylonly/teleport) [![view examples](https://img.shields.io/badge/learn%20by-examples-00BCD4.svg?style=flat-square)](https://github.com/mylonly/teleport/tree/v5/examples)
 <!-- [![view Go网络编程群](https://img.shields.io/badge/官方QQ群-Go网络编程(42730308)-27a5ea.svg?style=flat-square)](http://jq.qq.com/?_wv=1027&k=fzi4p1) -->
 
 
@@ -7,7 +7,7 @@ Teleport是一个通用、高效、灵活的Socket框架。
 可用于Peer-Peer对等通信、RPC、长连接网关、微服务、推送服务，游戏服务等领域。
 
 
-![Teleport-Framework](https://gitlab.1234tv.lan/common/teleport/raw/v5/doc/teleport_module_diagram.png)
+![Teleport-Framework](https://github.com/mylonly/teleport/raw/v5/doc/teleport_module_diagram.png)
 
 
 ## 性能测试
@@ -59,31 +59,31 @@ Teleport是一个通用、高效、灵活的Socket框架。
 
 - CPU耗时火焰图 teleport/socket
 
-![tp_socket_profile_torch](https://gitlab.1234tv.lan/common/teleport/raw/v5/doc/tp_socket_profile_torch.png)
+![tp_socket_profile_torch](https://github.com/mylonly/teleport/raw/v5/doc/tp_socket_profile_torch.png)
 
-**[svg file](https://gitlab.1234tv.lan/common/teleport/raw/v5/doc/tp_socket_profile_torch.svg)**
+**[svg file](https://github.com/mylonly/teleport/raw/v5/doc/tp_socket_profile_torch.svg)**
 
 - 堆栈信息火焰图 teleport/socket
 
-![tp_socket_heap_torch](https://gitlab.1234tv.lan/common/teleport/raw/v5/doc/tp_socket_heap_torch.png)
+![tp_socket_heap_torch](https://github.com/mylonly/teleport/raw/v5/doc/tp_socket_heap_torch.png)
 
-**[svg file](https://gitlab.1234tv.lan/common/teleport/raw/v5/doc/tp_socket_heap_torch.svg)**
+**[svg file](https://github.com/mylonly/teleport/raw/v5/doc/tp_socket_heap_torch.svg)**
 
 
 ## 版本
 
 | 版本   | 状态      | 分支                                       |
 | ---- | ------- | ---------------------------------------- |
-| v5      | release | [v5](https://gitlab.1234tv.lan/common/teleport/tree/v5) |
-| v4      | release | [v4](https://gitlab.1234tv.lan/common/teleport/tree/v4) |
-| v3      | release | [v3](https://gitlab.1234tv.lan/common/teleport/tree/v3) |
-| v2      | release | [v2](https://gitlab.1234tv.lan/common/teleport/tree/v2) |
-| v1      | release | [v1](https://gitlab.1234tv.lan/common/teleport/tree/v1) |
+| v5      | release | [v5](https://github.com/mylonly/teleport/tree/v5) |
+| v4      | release | [v4](https://github.com/mylonly/teleport/tree/v4) |
+| v3      | release | [v3](https://github.com/mylonly/teleport/tree/v3) |
+| v2      | release | [v2](https://github.com/mylonly/teleport/tree/v2) |
+| v1      | release | [v1](https://github.com/mylonly/teleport/tree/v1) |
 
 ## 安装
 
 ```sh
-go get -u -f gitlab.1234tv.lan/common/teleport
+go get -u -f github.com/mylonly/teleport
 ```
 
 ## 特性
@@ -124,7 +124,7 @@ import (
 	"fmt"
 	"time"
 
-	tp "gitlab.1234tv.lan/common/teleport"
+	tp "github.com/mylonly/teleport"
 )
 
 func main() {
@@ -186,7 +186,7 @@ package main
 import (
 	"time"
 
-	tp "gitlab.1234tv.lan/common/teleport"
+	tp "github.com/mylonly/teleport"
 )
 
 func main() {
@@ -229,7 +229,7 @@ func (p *Push) Status(arg *string) *tp.Rerror {
 }
 ```
 
-[更多示例](https://gitlab.1234tv.lan/common/teleport/blob/master/examples)
+[更多示例](https://github.com/mylonly/teleport/blob/master/examples)
 
 
 ## 框架设计
@@ -257,7 +257,7 @@ func (p *Push) Status(arg *string) *tp.Rerror {
 
 抽象应用层的数据报文（Message 对象）并与 HTTP 报文兼容：
 
-![tp_data_message](https://gitlab.1234tv.lan/common/teleport/raw/v5/doc/tp_data_message.png)
+![tp_data_message](https://github.com/mylonly/teleport/raw/v5/doc/tp_data_message.png)
 
 
 ### 通信协议
@@ -671,45 +671,45 @@ type PeerConfig struct {
 ### 编解码器
 | package                                  | import                                   | description                  |
 | ---------------------------------------- | ---------------------------------------- | ---------------------------- |
-| [json](https://gitlab.1234tv.lan/common/teleport/blob/v5/codec/json_codec.go) | `import "gitlab.1234tv.lan/common/teleport/codec"` | JSON codec(teleport own)     |
-| [protobuf](https://gitlab.1234tv.lan/common/teleport/blob/v5/codec/protobuf_codec.go) | `import "gitlab.1234tv.lan/common/teleport/codec"` | Protobuf codec(teleport own) |
-| [plain](https://gitlab.1234tv.lan/common/teleport/blob/v5/codec/plain_codec.go) | `import "gitlab.1234tv.lan/common/teleport/codec"` | Plain text codec(teleport own)   |
-| [form](https://gitlab.1234tv.lan/common/teleport/blob/v5/codec/form_codec.go) | `import "gitlab.1234tv.lan/common/teleport/codec"` | Form(url encode) codec(teleport own)   |
+| [json](https://github.com/mylonly/teleport/blob/v5/codec/json_codec.go) | `import "github.com/mylonly/teleport/codec"` | JSON codec(teleport own)     |
+| [protobuf](https://github.com/mylonly/teleport/blob/v5/codec/protobuf_codec.go) | `import "github.com/mylonly/teleport/codec"` | Protobuf codec(teleport own) |
+| [plain](https://github.com/mylonly/teleport/blob/v5/codec/plain_codec.go) | `import "github.com/mylonly/teleport/codec"` | Plain text codec(teleport own)   |
+| [form](https://github.com/mylonly/teleport/blob/v5/codec/form_codec.go) | `import "github.com/mylonly/teleport/codec"` | Form(url encode) codec(teleport own)   |
 
 ### 插件
 
 | package                                  | import                                   | description                              |
 | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
-| [auth](https://gitlab.1234tv.lan/common/teleport/tree/v5/plugin/auth) | `import "gitlab.1234tv.lan/common/teleport/plugin/auth"` | A auth plugin for verifying peer at the first time |
-| [binder](https://gitlab.1234tv.lan/common/teleport/tree/v5/plugin/binder) | `import binder "gitlab.1234tv.lan/common/teleport/plugin/binder"` | Parameter Binding Verification for Struct Handler |
-| [heartbeat](https://gitlab.1234tv.lan/common/teleport/tree/v5/plugin/heartbeat) | `import heartbeat "gitlab.1234tv.lan/common/teleport/plugin/heartbeat"` | A generic timing heartbeat plugin        |
-| [proxy](https://gitlab.1234tv.lan/common/teleport/tree/v5/plugin/proxy) | `import "gitlab.1234tv.lan/common/teleport/plugin/proxy"` | A proxy plugin for handling unknown calling or pushing |
-[secure](https://gitlab.1234tv.lan/common/teleport/tree/v5/plugin/secure)|`import secure "gitlab.1234tv.lan/common/teleport/plugin/secure"`|Encrypting/decrypting the message body
+| [auth](https://github.com/mylonly/teleport/tree/v5/plugin/auth) | `import "github.com/mylonly/teleport/plugin/auth"` | A auth plugin for verifying peer at the first time |
+| [binder](https://github.com/mylonly/teleport/tree/v5/plugin/binder) | `import binder "github.com/mylonly/teleport/plugin/binder"` | Parameter Binding Verification for Struct Handler |
+| [heartbeat](https://github.com/mylonly/teleport/tree/v5/plugin/heartbeat) | `import heartbeat "github.com/mylonly/teleport/plugin/heartbeat"` | A generic timing heartbeat plugin        |
+| [proxy](https://github.com/mylonly/teleport/tree/v5/plugin/proxy) | `import "github.com/mylonly/teleport/plugin/proxy"` | A proxy plugin for handling unknown calling or pushing |
+[secure](https://github.com/mylonly/teleport/tree/v5/plugin/secure)|`import secure "github.com/mylonly/teleport/plugin/secure"`|Encrypting/decrypting the message body
 
 ### 协议
 
 | package                                  | import                                   | description                              |
 | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
-| [rawproto](https://gitlab.1234tv.lan/common/teleport/tree/v5/proto/rawproto) | `import "gitlab.1234tv.lan/common/teleport/proto/rawproto` | 一个高性能的通信协议（teleport默认）|
-| [jsonproto](https://gitlab.1234tv.lan/common/teleport/tree/v5/proto/jsonproto) | `import "gitlab.1234tv.lan/common/teleport/proto/jsonproto"` | JSON 格式的通信协议     |
-| [pbproto](https://gitlab.1234tv.lan/common/teleport/tree/v5/proto/pbproto) | `import "gitlab.1234tv.lan/common/teleport/proto/pbproto"` | Protobuf 格式的通信协议     |
-| [thriftproto](https://gitlab.1234tv.lan/common/teleport/tree/v5/proto/thriftproto) | `import "gitlab.1234tv.lan/common/teleport/proto/thriftproto"` | Thrift 格式的通信协议     |
-| [httproto](https://gitlab.1234tv.lan/common/teleport/tree/v5/proto/httproto) | `import "gitlab.1234tv.lan/common/teleport/proto/httproto"` | HTTP 格式的通信协议     |
+| [rawproto](https://github.com/mylonly/teleport/tree/v5/proto/rawproto) | `import "github.com/mylonly/teleport/proto/rawproto` | 一个高性能的通信协议（teleport默认）|
+| [jsonproto](https://github.com/mylonly/teleport/tree/v5/proto/jsonproto) | `import "github.com/mylonly/teleport/proto/jsonproto"` | JSON 格式的通信协议     |
+| [pbproto](https://github.com/mylonly/teleport/tree/v5/proto/pbproto) | `import "github.com/mylonly/teleport/proto/pbproto"` | Protobuf 格式的通信协议     |
+| [thriftproto](https://github.com/mylonly/teleport/tree/v5/proto/thriftproto) | `import "github.com/mylonly/teleport/proto/thriftproto"` | Thrift 格式的通信协议     |
+| [httproto](https://github.com/mylonly/teleport/tree/v5/proto/httproto) | `import "github.com/mylonly/teleport/proto/httproto"` | HTTP 格式的通信协议     |
 
 ### 传输过滤器
 
 | package                                  | import                                   | description                              |
 | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
-| [gzip](https://gitlab.1234tv.lan/common/teleport/tree/v5/xfer/gzip) | `import "gitlab.1234tv.lan/common/teleport/xfer/gzip"` | Gzip(teleport own)                       |
-| [md5](https://gitlab.1234tv.lan/common/teleport/tree/v5/xfer/md5) | `import "gitlab.1234tv.lan/common/teleport/xfer/md5"` | Provides a integrity check transfer filter |
+| [gzip](https://github.com/mylonly/teleport/tree/v5/xfer/gzip) | `import "github.com/mylonly/teleport/xfer/gzip"` | Gzip(teleport own)                       |
+| [md5](https://github.com/mylonly/teleport/tree/v5/xfer/md5) | `import "github.com/mylonly/teleport/xfer/md5"` | Provides a integrity check transfer filter |
 
 ### 其他模块
 
 | package                                  | import                                   | description                              |
 | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
-| [multiclient](https://gitlab.1234tv.lan/common/teleport/tree/v5/mixer/multiclient) | `import "gitlab.1234tv.lan/common/teleport/mixer/multiclient"` | Higher throughput client connection pool when transferring large messages (such as downloading files) |
-| [websocket](https://gitlab.1234tv.lan/common/teleport/tree/v5/mixer/websocket) | `import "gitlab.1234tv.lan/common/teleport/mixer/websocket"` | Makes the Teleport framework compatible with websocket protocol as specified in RFC 6455 |
-| [evio](https://gitlab.1234tv.lan/common/teleport/tree/v5/mixer/evio) | `import "gitlab.1234tv.lan/common/teleport/mixer/evio"` | A fast event-loop networking framework that uses the teleport API layer |
+| [multiclient](https://github.com/mylonly/teleport/tree/v5/mixer/multiclient) | `import "github.com/mylonly/teleport/mixer/multiclient"` | Higher throughput client connection pool when transferring large messages (such as downloading files) |
+| [websocket](https://github.com/mylonly/teleport/tree/v5/mixer/websocket) | `import "github.com/mylonly/teleport/mixer/websocket"` | Makes the Teleport framework compatible with websocket protocol as specified in RFC 6455 |
+| [evio](https://github.com/mylonly/teleport/tree/v5/mixer/evio) | `import "github.com/mylonly/teleport/mixer/evio"` | A fast event-loop networking framework that uses the teleport API layer |
 | [html](https://github.com/xiaoenai/tp-micro/tree/master/helper/mod-html) | `html "github.com/xiaoenai/tp-micro/helper/mod-html"` | HTML render for http client |
 
 ## 基于Teleport的项目
@@ -732,4 +732,4 @@ type PeerConfig struct {
 
 ## 开源协议
 
-Teleport 项目采用商业应用友好的 [Apache2.0](https://gitlab.1234tv.lan/common/teleport/raw/v5/LICENSE) 协议发布
+Teleport 项目采用商业应用友好的 [Apache2.0](https://github.com/mylonly/teleport/raw/v5/LICENSE) 协议发布

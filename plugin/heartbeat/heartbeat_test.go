@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	tp "gitlab.1234tv.lan/common/teleport"
-	"gitlab.1234tv.lan/common/teleport/plugin/heartbeat"
+	tp "github.com/mylonly/teleport"
+	"github.com/mylonly/teleport/plugin/heartbeat"
 )
 
 func TestHeartbeatCall1(t *testing.T) {

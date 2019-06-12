@@ -9,8 +9,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	tp "gitlab.1234tv.lan/common/teleport"
-	"gitlab.1234tv.lan/common/teleport/examples/bench/msg"
+	tp "github.com/mylonly/teleport"
+	"github.com/mylonly/teleport/examples/bench/msg"
 	"github.com/montanaflynn/stats"
 )
 

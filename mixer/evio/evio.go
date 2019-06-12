@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	tp "gitlab.1234tv.lan/common/teleport"
-	"gitlab.1234tv.lan/common/teleport/mixer/evio/evio"
-	"gitlab.1234tv.lan/common/teleport/utils"
+	tp "github.com/mylonly/teleport"
+	"github.com/mylonly/teleport/mixer/evio/evio"
+	"github.com/mylonly/teleport/utils"
 )
 
 // NewClient creates a evio client, equivalent to tp.NewPeer.

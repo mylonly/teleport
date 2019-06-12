@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	tp "gitlab.1234tv.lan/common/teleport"
+	tp "github.com/mylonly/teleport"
 )
 
 //go:generate go build $GOFILE
