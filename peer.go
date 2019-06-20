@@ -332,11 +332,11 @@ func (p *peer) renewSessionForClient(sess *session, dialFunc func() (net.Conn, e
 	} else {
 		sess.socket.SetID(oldID)
 	}
+	atomic.StoreInt32(&sess.status, statusOk)
 	if rerr := p.pluginContainer.postDial(sess); rerr != nil {
 		sess.Close()
 		return rerr.ToError()
 	}
-	atomic.StoreInt32(&sess.status, statusOk)
 	AnywayGo(sess.startReadAndHandle)
 	p.sessHub.Set(sess)
 	return nil
