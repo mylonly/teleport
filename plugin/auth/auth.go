@@ -55,6 +55,8 @@ type (
 	Session interface {
 		// Peer returns the peer.
 		Peer() tp.Peer
+		// ID get the session id
+		ID()
 		// SetID sets the session id.
 		SetID(newID string)
 		// RemoteAddr returns the remote network address.
